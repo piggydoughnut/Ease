@@ -6,8 +6,8 @@
 
 .term-name {
     margin-bottom: 0;
-    color: var(--primary-color);
-    font-size: 20px;
+    color: var(--light-gray-color);
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
