@@ -6,12 +6,13 @@
 
 .site-content {
     flex-grow: 1;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
 @media (max-width: 767px) {
-    .site-content {
+    .site-content {    
+        padding-top: 130px;
         padding-bottom: 0;
     }
 }

@@ -1,17 +1,31 @@
 .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--light-gray-color);
+    height: 100vh;
+    text-align: left;
+    padding: 0.5rem;
+    padding-top: 1rem;
     position: absolute;
-    top: 70px;
+    top: 0;
     left: 0;
     z-index: 90;
-    display: none;
-    padding-top: 45px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
     width: 100%;
-    height: calc(100vh - 70px);
-    background-color: var(--white-color);
 }
 
 .mobile-menu .menu-item {
-    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    text-align: center;
+    font-weight: 600;
 }
 
 .mobile-menu .menu-item + .menu-item {
@@ -25,4 +39,9 @@
 
 .menu-opened .mobile-menu {
     display: block;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

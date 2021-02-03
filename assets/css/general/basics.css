@@ -1,6 +1,6 @@
 :root {
     --primary-color: #6c5ce7;
-    --primary-text-color: #333;
+    --primary-text-color: #19074F;
     --secondary-text-color: #999;
     --red-color: #dc3545;
     --orange-color: #ffc107;
@@ -13,7 +13,9 @@
     --black-color: #000;
     --font-base: roboto, sans-serif;
     --animation-base: ease-in-out;
-    --navbar-height: 70px;
+    --navbar-height: 100px;
+
+    --purple-color: #3D08A1;
 }
 
 html {
