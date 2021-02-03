@@ -25,6 +25,7 @@
     text-decoration: none;
     color: var(--primary-text-color);
     text-align: center;
+    font-weight: 600;
 }
 
 .mobile-menu .menu-item + .menu-item {
