@@ -11,7 +11,8 @@
     --mid-gray-color: #e6e6e6;
     --dark-gray-color: #1a1a1a;
     --black-color: #000;
-    --font-base: roboto, sans-serif;
+    --font-base: montserrat, sans-serif;
+    --font-secondary: rubik, sans-serif;
     --animation-base: ease-in-out;
     --navbar-height: 100px;
 
@@ -42,8 +43,8 @@ body {
 
 a {
     color: var(--dark-gray-color);
-    text-decoration: none;
     transition: color 0.1s var(--animation-base);
+    font-family: var(--font-secondary);
 }
 
 a:hover {
@@ -60,10 +61,13 @@ h6 {
     color: var(--dark-gray-color);
     line-height: 1.3;
     font-weight: 700;
+    font-family: var(--font-secondary);
 }
 
 p {
     margin: 0 0 20px;
+    font-family: var(--font-base);    
+    color: var(--dark-gray-color);
 }
 
 img {
@@ -127,7 +131,8 @@ tfoot td {
 
 ul,
 ol {
-    padding-left: 20px;
+    padding-left: 20px;   
+    color: var(--dark-gray-color);
 }
 
 iframe,
